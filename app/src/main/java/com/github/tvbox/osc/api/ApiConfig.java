@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://github.com/2Or3InTheMorning/2or3inthemorning.github.io/blob/8231d7954c6f07dbf94bccea3254b5df94a806a9/my.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://xn--4bra.live/gg.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
